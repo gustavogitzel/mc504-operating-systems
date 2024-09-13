@@ -5,4 +5,4 @@ services:
     build: .
     volumes:
       - .:/bootloader
-    command: sh -c "nasm -f bin bootloader.asm -o bootloader.bin
+    command: sh -c "nasm -f bin bootloader.asm -o bootloader.bin"
