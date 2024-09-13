@@ -1,3 +1,7 @@
+; Name: Gustavo Ferreira Gitzel
+; RA: 223559
+; Class: MC504 A
+
 BITS 16                  ; indica que o código será montado em modo de 16 bits
 ORG 0x7C00               ; define a origem com o endereço onde o BIOS carrega o setor de boot na memória
 
