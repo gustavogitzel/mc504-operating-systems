@@ -42,11 +42,18 @@ To remove the generated binary file, use:
 make clean
 ```
 
-## 🔄 Rebuilding
-To recompile the bootloader from the source code:
+## 🔄 Building
+To compile the bootloader from the source code using docker:
 
 ```bash
-make rebuild
+make build
+```
+
+## 🔄 Running
+To run the bootloader from the binary:
+
+```bash
+make run
 ```
 
 ## 👨‍💻 Author
